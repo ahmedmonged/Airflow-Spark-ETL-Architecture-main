@@ -9833,3 +9833,31 @@
 [2025-07-10T14:10:34.344+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:10:34.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-07-10T14:10:34.359+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:10:34.359+0000] {dag.py:4180} INFO - Setting next_dagrun for test_local_sql_server to None, run_after=None
 [2025-07-10T14:10:34.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/SQL_Server.py took 0.080 seconds
+[2025-07-10T14:11:05.057+0000] {processor.py:186} INFO - Started process (PID=291722) to work on /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:11:05.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/SQL_Server.py for tasks to queue
+[2025-07-10T14:11:05.066+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:05.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:11:05.074+0000] {processor.py:925} INFO - DAG(s) 'test_local_sql_server' retrieved from /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:11:05.099+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:05.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:11:05.115+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:05.115+0000] {dag.py:4180} INFO - Setting next_dagrun for test_local_sql_server to None, run_after=None
+[2025-07-10T14:11:05.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/SQL_Server.py took 0.085 seconds
+[2025-07-10T14:11:35.713+0000] {processor.py:186} INFO - Started process (PID=291758) to work on /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:11:35.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/SQL_Server.py for tasks to queue
+[2025-07-10T14:11:35.718+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:35.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:11:35.726+0000] {processor.py:925} INFO - DAG(s) 'test_local_sql_server' retrieved from /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:11:35.751+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:35.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:11:35.767+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:35.767+0000] {dag.py:4180} INFO - Setting next_dagrun for test_local_sql_server to None, run_after=None
+[2025-07-10T14:11:35.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/SQL_Server.py took 0.080 seconds
+[2025-07-10T14:12:06.330+0000] {processor.py:186} INFO - Started process (PID=291794) to work on /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:12:06.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/SQL_Server.py for tasks to queue
+[2025-07-10T14:12:06.337+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:06.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:12:06.349+0000] {processor.py:925} INFO - DAG(s) 'test_local_sql_server' retrieved from /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:12:06.384+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:06.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:12:06.406+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:06.406+0000] {dag.py:4180} INFO - Setting next_dagrun for test_local_sql_server to None, run_after=None
+[2025-07-10T14:12:06.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/SQL_Server.py took 0.114 seconds
+[2025-07-10T14:12:36.999+0000] {processor.py:186} INFO - Started process (PID=291830) to work on /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:12:37.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/SQL_Server.py for tasks to queue
+[2025-07-10T14:12:37.005+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:37.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:12:37.015+0000] {processor.py:925} INFO - DAG(s) 'test_local_sql_server' retrieved from /opt/airflow/dags/SQL_Server.py
+[2025-07-10T14:12:37.046+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:37.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:12:37.066+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:37.066+0000] {dag.py:4180} INFO - Setting next_dagrun for test_local_sql_server to None, run_after=None
+[2025-07-10T14:12:37.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/SQL_Server.py took 0.101 seconds

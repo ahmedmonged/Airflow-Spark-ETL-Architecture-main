@@ -9826,3 +9826,31 @@
 [2025-07-10T14:10:40.537+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:10:40.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-07-10T14:10:40.565+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:10:40.565+0000] {dag.py:4180} INFO - Setting next_dagrun for API_data to 2025-07-09 00:00:00+00:00, run_after=2025-07-10 00:00:00+00:00
 [2025-07-10T14:10:40.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.097 seconds
+[2025-07-10T14:11:11.293+0000] {processor.py:186} INFO - Started process (PID=291740) to work on /opt/airflow/dags/api.py
+[2025-07-10T14:11:11.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-07-10T14:11:11.297+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:11.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-07-10T14:11:11.308+0000] {processor.py:925} INFO - DAG(s) 'API_data' retrieved from /opt/airflow/dags/api.py
+[2025-07-10T14:11:11.334+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:11.333+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:11:11.374+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:11.374+0000] {dag.py:4180} INFO - Setting next_dagrun for API_data to 2025-07-09 00:00:00+00:00, run_after=2025-07-10 00:00:00+00:00
+[2025-07-10T14:11:11.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.123 seconds
+[2025-07-10T14:11:41.970+0000] {processor.py:186} INFO - Started process (PID=291776) to work on /opt/airflow/dags/api.py
+[2025-07-10T14:11:41.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-07-10T14:11:41.975+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:41.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-07-10T14:11:41.989+0000] {processor.py:925} INFO - DAG(s) 'API_data' retrieved from /opt/airflow/dags/api.py
+[2025-07-10T14:11:42.024+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:42.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:11:42.053+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:42.053+0000] {dag.py:4180} INFO - Setting next_dagrun for API_data to 2025-07-09 00:00:00+00:00, run_after=2025-07-10 00:00:00+00:00
+[2025-07-10T14:11:42.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.109 seconds
+[2025-07-10T14:12:12.588+0000] {processor.py:186} INFO - Started process (PID=291812) to work on /opt/airflow/dags/api.py
+[2025-07-10T14:12:12.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-07-10T14:12:12.592+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:12.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-07-10T14:12:12.605+0000] {processor.py:925} INFO - DAG(s) 'API_data' retrieved from /opt/airflow/dags/api.py
+[2025-07-10T14:12:12.630+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:12.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:12:12.656+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:12.656+0000] {dag.py:4180} INFO - Setting next_dagrun for API_data to 2025-07-09 00:00:00+00:00, run_after=2025-07-10 00:00:00+00:00
+[2025-07-10T14:12:12.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.095 seconds
+[2025-07-10T14:12:43.238+0000] {processor.py:186} INFO - Started process (PID=291848) to work on /opt/airflow/dags/api.py
+[2025-07-10T14:12:43.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-07-10T14:12:43.243+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:43.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-07-10T14:12:43.255+0000] {processor.py:925} INFO - DAG(s) 'API_data' retrieved from /opt/airflow/dags/api.py
+[2025-07-10T14:12:43.282+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:43.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:12:43.308+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:43.308+0000] {dag.py:4180} INFO - Setting next_dagrun for API_data to 2025-07-09 00:00:00+00:00, run_after=2025-07-10 00:00:00+00:00
+[2025-07-10T14:12:43.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.101 seconds

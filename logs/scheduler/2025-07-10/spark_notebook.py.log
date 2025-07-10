@@ -9819,3 +9819,31 @@
 [2025-07-10T14:10:26.138+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:10:26.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-07-10T14:10:26.165+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:10:26.165+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_dag_new_one_222 to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
 [2025-07-10T14:10:26.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_notebook.py took 0.171 seconds
+[2025-07-10T14:10:56.776+0000] {processor.py:186} INFO - Started process (PID=291715) to work on /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:10:56.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_notebook.py for tasks to queue
+[2025-07-10T14:10:56.780+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:10:56.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:10:56.889+0000] {processor.py:925} INFO - DAG(s) 'spark_dag_new_one_222' retrieved from /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:10:56.915+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:10:56.915+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:10:56.942+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:10:56.942+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_dag_new_one_222 to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
+[2025-07-10T14:10:56.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_notebook.py took 0.197 seconds
+[2025-07-10T14:11:27.580+0000] {processor.py:186} INFO - Started process (PID=291753) to work on /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:11:27.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_notebook.py for tasks to queue
+[2025-07-10T14:11:27.592+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:27.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:11:27.810+0000] {processor.py:925} INFO - DAG(s) 'spark_dag_new_one_222' retrieved from /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:11:27.836+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:27.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:11:27.860+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:27.860+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_dag_new_one_222 to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
+[2025-07-10T14:11:27.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_notebook.py took 0.320 seconds
+[2025-07-10T14:11:58.228+0000] {processor.py:186} INFO - Started process (PID=291789) to work on /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:11:58.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_notebook.py for tasks to queue
+[2025-07-10T14:11:58.233+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:58.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:11:58.326+0000] {processor.py:925} INFO - DAG(s) 'spark_dag_new_one_222' retrieved from /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:11:58.349+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:58.349+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:11:58.376+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:11:58.376+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_dag_new_one_222 to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
+[2025-07-10T14:11:58.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_notebook.py took 0.177 seconds
+[2025-07-10T14:12:28.877+0000] {processor.py:186} INFO - Started process (PID=291825) to work on /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:12:28.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_notebook.py for tasks to queue
+[2025-07-10T14:12:28.886+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:28.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:12:28.985+0000] {processor.py:925} INFO - DAG(s) 'spark_dag_new_one_222' retrieved from /opt/airflow/dags/spark_notebook.py
+[2025-07-10T14:12:29.008+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:29.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-10T14:12:29.033+0000] {logging_mixin.py:190} INFO - [2025-07-10T14:12:29.032+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_dag_new_one_222 to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
+[2025-07-10T14:12:29.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/spark_notebook.py took 0.183 seconds

@@ -50,7 +50,7 @@ def read_csv_from_s3_with_s3hook_and_pyspark(**kwargs):
         cursor.execute("""
             INSERT INTO customer (full_name, email, phone_number, source)
             VALUES (%s, %s, %s, %s)
-        """, (row['full_name'], row['email'], row['phone_number'], 'local'))
+        """, (row['full_name'], row['email'], row['phone_number'], 'ec2'))
 
     conn.commit()
     cursor.close()
@@ -88,7 +88,7 @@ default_args = {
 with DAG(
     dag_id='list_s3_files',
     default_args=default_args,
-    schedule_interval=None,
+    schedule_interval="*/15 * * * *",
     catchup=False,
     tags=['s3', 'list', 'aws']
 ) as dag:

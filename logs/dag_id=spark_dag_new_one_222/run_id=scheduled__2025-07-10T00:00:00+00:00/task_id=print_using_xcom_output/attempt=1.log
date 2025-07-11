@@ -1,0 +1,18 @@
+[2025-07-11T00:00:03.081+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-11T00:00:03.102+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_dag_new_one_222.print_using_xcom_output scheduled__2025-07-10T00:00:00+00:00 [queued]>
+[2025-07-11T00:00:03.111+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_dag_new_one_222.print_using_xcom_output scheduled__2025-07-10T00:00:00+00:00 [queued]>
+[2025-07-11T00:00:03.111+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-07-11T00:00:03.124+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): print_using_xcom_output> on 2025-07-10 00:00:00+00:00
+[2025-07-11T00:00:03.129+0000] {standard_task_runner.py:72} INFO - Started process 14621 to run task
+[2025-07-11T00:00:03.132+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spark_dag_new_one_222', 'print_using_xcom_output', 'scheduled__2025-07-10T00:00:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/spark_notebook.py', '--cfg-path', '/tmp/tmpdsy_14x3']
+[2025-07-11T00:00:03.134+0000] {standard_task_runner.py:105} INFO - Job 43: Subtask print_using_xcom_output
+[2025-07-11T00:00:03.178+0000] {task_command.py:467} INFO - Running <TaskInstance: spark_dag_new_one_222.print_using_xcom_output scheduled__2025-07-10T00:00:00+00:00 [running]> on host dd8713d3b969
+[2025-07-11T00:00:03.257+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='monged' AIRFLOW_CTX_DAG_ID='spark_dag_new_one_222' AIRFLOW_CTX_TASK_ID='print_using_xcom_output' AIRFLOW_CTX_EXECUTION_DATE='2025-07-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-10T00:00:00+00:00'
+[2025-07-11T00:00:03.258+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-07-11T00:00:03.280+0000] {logging_mixin.py:190} INFO - my name is ahmed.
+[2025-07-11T00:00:03.281+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-07-11T00:00:03.289+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-07-11T00:00:03.290+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=spark_dag_new_one_222, task_id=print_using_xcom_output, run_id=scheduled__2025-07-10T00:00:00+00:00, execution_date=20250710T000000, start_date=20250711T000003, end_date=20250711T000003
+[2025-07-11T00:00:03.345+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-11T00:00:03.386+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-11T00:00:03.388+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
